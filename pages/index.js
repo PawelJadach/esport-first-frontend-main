@@ -1,23 +1,13 @@
-import { useDispatch } from 'react-redux'
+import styled from 'styled-components';
 
-import Clock from '../components/clock'
-import Counter from '../components/counter'
-import { tick } from '../lib/slices/clockSlice'
-import useInterval from '../lib/useInterval'
+import Layout from '../components/Layout';
 
 const IndexPage = () => {
-  const dispatch = useDispatch()
-  // Tick the time every second
-  useInterval(() => {
-    dispatch(tick({ light: true, lastUpdate: Date.now() }))
-  }, 1000)
-
-  return (
-    <>
-      <Clock />
-      <Counter />
-    </>
-  )
+    return (
+    	<Layout title='Strona główna'>
+      	    <p>My app</p>
+    	</Layout>
+    )
 }
 
 export default IndexPage

@@ -1,6 +1,6 @@
-import { Provider } from 'react-redux'
-
-import store from '../store'
+import { Provider } from 'react-redux';
+import '../styles/index.scss';
+import store from '../store';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
@@ -10,4 +10,4 @@ const MyApp = ({ Component, pageProps }) => {
   )
 }
 
-export default MyApp
+export default MyApp;
