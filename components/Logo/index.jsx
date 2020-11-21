@@ -12,7 +12,7 @@ const Container = styled.a`
 `;
 
 const StyledLogo = styled.span`
-    transition: .2s;
+    transition: .3s;
     font-weight: 900;
     color: ${({ green, theme }) => green ? theme.colors.primary : theme.colors.textLight};
 `;
@@ -23,7 +23,7 @@ const propTypes = {
 
 const Logo = () => {
     return (
-        <Link href='/other'>
+        <Link href='/'>
             <Container>
                 <StyledLogo>ESPORT </StyledLogo>
                 <StyledLogo green>FIRST</StyledLogo>

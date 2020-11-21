@@ -9,13 +9,12 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components';
 const theme = {
     colors: {
         primary: '#43702C',
+        dark: '#000',
         textLight: '#fff',
     },
 }
 
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
-
     body {
         font-family: 'Nunito', sans-serif;
         font-weight: 900;
