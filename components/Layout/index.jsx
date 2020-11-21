@@ -17,9 +17,7 @@ const Container = styled.div`
 `;
 
 const BodyWrapper = styled.div`
-    max-height: 100%;
     width: 100%;
-    max-width: 1500px;
     margin: 0 auto;
     overflow: auto;
     padding: 40px;
