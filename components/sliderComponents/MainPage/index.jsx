@@ -88,7 +88,7 @@ const MainPage = ({ img, alt = 'Alternative text', header, button, href = '/', i
 		<Wrapper imageLeft={imageLeft}>
 			<Content>
 				<Header imageLeft={imageLeft}>{header}</Header>
-				<Link prefetch href={href} passHref><Button>{button}</Button></Link>
+				<Link href={href} passHref><Button>{button}</Button></Link>
 			</Content>
 			<Image
 				src={img}
