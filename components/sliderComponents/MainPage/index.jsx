@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Wrapper = styled.div`
+	margin-top: 50px;
 	width: 100%;
 	height: 70vh;
 	display: flex !important;
@@ -15,7 +16,8 @@ const Wrapper = styled.div`
 
 	@media (max-width: 1300px) {
 		flex-direction: column-reverse;
-        margin-bottom: 50px;
+		margin-bottom: 50px;
+		margin-top: 20px;
   	}
 `;
 

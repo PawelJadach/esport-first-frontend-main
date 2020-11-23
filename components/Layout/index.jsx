@@ -25,7 +25,7 @@ const BodyWrapper = styled.div`
     padding: 100px;
 
     @media (max-width: 1300px) {
-		padding: 100px 40px;
+		padding: 100px 20px;
   	}
 `;
 
