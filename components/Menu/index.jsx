@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import { menuItems } from '../../constants/menuItems';
 
@@ -29,6 +30,7 @@ const Item = styled.a`
     margin-top: 20px;
     font-size: 25px;
     transition: .2s;
+    color: ${({ theme, isActive }) => isActive ? theme.colors.primary : theme.textLight};
 
     &:hover {
         cursor: pointer;
@@ -41,14 +43,18 @@ const propTypes = {
 };
 
 const Menu = ({ isOpen }) => {
+    const { route } = useRouter();
+
     return (
         <Container isOpen={isOpen}>
-            {menuItems.map(item => <MenuItem key={item.id} href={item.href} label={item.label} />)}
+            {menuItems.map(item =>
+                <MenuItem key={item.id} href={item.href} label={item.label} isActive={route === item.href} />
+            )}
         </Container>
     );
 };
 
-const MenuItem = ({ href, label }) => <Link href={href}><Item>{label}</Item></Link>;
+const MenuItem = ({ href, label, isActive }) => <Link href={href}><Item isActive={isActive}>{label}</Item></Link>;
 
 Menu.propTypes = propTypes;
 

@@ -30,11 +30,15 @@ const Container = styled.div`
   	}
 `;
 
+const Link = styled.a`
+    color: ${({ theme }) => theme.colors.textLight};
+`;
+
 const Socials = () => {
     return (
         <Container>
-            <FontAwesomeIcon icon={faFacebook} size='2x' />
-            <FontAwesomeIcon icon={faInstagram} size='2x' />
+            <Link href='https://www.facebook.com/EsportF1rst' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size='2x' /></Link>
+            <Link href='https://www.instagram.com/esportfirst/' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size='2x' /></Link>
         </Container>
     );
 };

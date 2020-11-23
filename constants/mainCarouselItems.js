@@ -3,9 +3,10 @@ export const mainCarouselItems = [
         id: 1,
         img: '/1.png',
         alt: 'Samochód esport-first',
-        header: 'Prawdziwe emocje',
-        button: 'Zobacz kalendarz',
+        header: 'Zaangażowani ludzie',
+        button: 'Zobacz naszą ekipę',
         imageLeft: true,
+        href: '/ekipa'
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ export const mainCarouselItems = [
         header: 'Możliwości reklamowe',
         button: 'Skontaktuj się',
         imageLeft: false,
+        href: '/kontakt',
     },
     {
         id: 3,

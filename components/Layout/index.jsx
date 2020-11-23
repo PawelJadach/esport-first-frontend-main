@@ -15,13 +15,18 @@ const Container = styled.div`
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    overflow: auto;
 `;
 
 const BodyWrapper = styled.div`
     width: 100%;
     margin: 0 auto;
     overflow: auto;
-    padding: 40px;
+    padding: 100px;
+
+    @media (max-width: 1300px) {
+		padding: 100px 40px;
+  	}
 `;
 
 const propTypes = {
