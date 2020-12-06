@@ -9,19 +9,19 @@ export const menuItems = [
         label: 'Ekipa',
         href: '/ekipa',
     },
-    {
-        id: 'galeria',
-        label: 'Galeria',
-        href: '/galeria',
-    },
-    {
-        id: 'kalendarz',
-        label: 'Kalendarz',
-        href: '/kalendarz',
-    },
-    {
-        id: 'kontakt',
-        label: 'Kontakt',
-        href: '/kontakt',
-    },
+    // {
+    //     id: 'galeria',
+    //     label: 'Galeria',
+    //     href: '/galeria',
+    // },
+    // {
+    //     id: 'kalendarz',
+    //     label: 'Kalendarz',
+    //     href: '/kalendarz',
+    // },
+    // {
+    //     id: 'kontakt',
+    //     label: 'Kontakt',
+    //     href: '/kontakt',
+    // },
 ];

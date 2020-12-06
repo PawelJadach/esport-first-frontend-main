@@ -13,7 +13,7 @@ export const mainCarouselItems = [
         img: '/2.png',
         alt: 'Samochód esport-first',
         header: 'Możliwości reklamowe',
-        button: 'Skontaktuj się',
+        // button: 'Skontaktuj się',
         imageLeft: false,
         href: '/kontakt',
     },
@@ -22,7 +22,7 @@ export const mainCarouselItems = [
         img: '/3.png',
         alt: 'Samochód esport-first',
         header: 'Profesjonalne podejście',
-        button: 'Zobacz blog',
+        // button: 'Zobacz blog',
         imageLeft: true,
     },
     {
@@ -30,7 +30,7 @@ export const mainCarouselItems = [
         img: '/4.png',
         alt: 'Samochód esport-first',
         header: 'Niesamowite przygody',
-        button: 'Zobacz galerię',
+        // button: 'Zobacz galerię',
         imageLeft: false,
     },
 ];

@@ -11,8 +11,10 @@ const theme = {
         primary: '#43702C',
         dark: '#000',
         textLight: '#fff',
-    },
-}
+        facebookColor: '#4267B2',
+        simracing: '#F3AC32',
+    }
+};
 
 const GlobalStyle = createGlobalStyle`
     body {
