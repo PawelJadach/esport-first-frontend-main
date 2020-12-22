@@ -17,10 +17,6 @@ const Title = styled.p`
 	margin-bottom: 40px;
 `;
 
-const Header = styled.h2`
-	margin-top: 50px;
-`;
-
 const CalendarPage = () => {
 	const sortedByDateEvents = events.sort((a, b) => a.date.getTime() - b.date.getTime());
 
@@ -29,8 +25,8 @@ const CalendarPage = () => {
 	const openInNewTab = link => () => {
 		window.open(link, '_blank');
 	};
-	console.log(sortedByDateEvents);
-    return (
+
+	return (
     	<Layout title='Kalendarz wyścigów'>
 			<Title>Najbliższe występy</Title>
       	    <Wrapper>
