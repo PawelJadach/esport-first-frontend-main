@@ -35,16 +35,16 @@ const Header = styled.h2`
 
 const TeamPage = () => {
     return (
-    	<Layout title='Ekipa Esport First'>
+    	<Layout title='Esport First - poznaj naszą ekipę'>
 			<Title>Poznaj naszą ekipę</Title>
 			{/* <Subtitle>Aby zobaczyć więcej danych o zawodniku kliknij na jego miniaturkę</Subtitle> */}
 			<Header>Zarząd</Header>
 			<Wrapper>
-				{team && team.filter(person => person.type === 'stuff').map(person => <PersonCard person={person} />)}
+				{team && team.filter(person => person.type === 'stuff').map(person =>  <PersonCard key={person.id} person={person} />)}
 			</Wrapper>
 				<Header>Sim Racing</Header>
 			<Wrapper>
-				{team && team.filter(person => person.type === 'simRacing').map(person => <PersonCard person={person} />)}
+				{team && team.filter(person => person.type === 'simRacing').map(person => <PersonCard key={person.id} person={person} />)}
 			</Wrapper>
     	</Layout>
     );

@@ -13,6 +13,7 @@ const theme = {
         textLight: '#fff',
         facebookColor: '#4267B2',
         simracing: '#F3AC32',
+        grey: '#444'
     }
 };
 

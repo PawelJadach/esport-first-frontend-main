@@ -17,6 +17,7 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    background-color: ${({ theme }) => theme.colors.dark};
 `;
 
 const StyledBurger = styled.button`

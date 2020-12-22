@@ -57,6 +57,7 @@ export const team = [
         id: 7,
         name: 'Mateusz',
         surname: 'Grzonka',
+        nick: 'MATTY',
         role: 'Sim Racing',
         img: '/team/200x300/grzonka.png',
         type: 'simRacing',

@@ -14,11 +14,11 @@ export const menuItems = [
     //     label: 'Galeria',
     //     href: '/galeria',
     // },
-    // {
-    //     id: 'kalendarz',
-    //     label: 'Kalendarz',
-    //     href: '/kalendarz',
-    // },
+    {
+        id: 'kalendarz',
+        label: 'Kalendarz',
+        href: '/kalendarz',
+    },
     // {
     //     id: 'kontakt',
     //     label: 'Kontakt',

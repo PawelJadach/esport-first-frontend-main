@@ -13,6 +13,8 @@ const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    background-color: ${({ theme }) => theme.colors.primary};
 
     svg {
         margin: 7px;

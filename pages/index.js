@@ -18,7 +18,7 @@ const IndexPage = () => {
 	};
 
     return (
-    	<Layout title='Strona główna'>
+    	<Layout title='Esport First - born for esports'>
       	    <Slider {...sliderSettings}>
 				{mainCarouselItems.map(item => <Slide key={item.id} {...item} />)}
 			</Slider>
