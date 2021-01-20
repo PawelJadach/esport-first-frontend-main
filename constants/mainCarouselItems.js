@@ -3,7 +3,7 @@ export const mainCarouselItems = [
         id: 1,
         img: '/1.png',
         alt: 'Samochód esport-first',
-        header: 'Zaangażowani ludzie',
+        header: 'Zaangazowani ludzie',
         button: 'Zobacz naszą ekipę',
         imageLeft: true,
         href: '/ekipa'

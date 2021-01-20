@@ -11,7 +11,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda0-wyniki.html',
-        date: new Date('11.19.2020 21:00'),
+        date: new Date(2020, 11, 19, 21, 0),
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda1-wyniki.html',
-        date: new Date('12.03.2020 21:00'),
+        date: new Date(2020, 11, 3, 21, 0),
     },
     {
         id: 3,
@@ -39,7 +39,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda2-wyniki.html',
-        date: new Date('12.17.2020 21:00'),
+        date: new Date(2020, 11, 17, 21, 0),
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda3-wyniki.html',
-        date: new Date('01.07.2021 21:00'),
+        date: new Date(2021, 0, 7, 21, 0),
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda4-wyniki.html',
-        date: new Date('01.21.2021 21:00'),
+        date: new Date(2021, 0, 21, 21, 0),
     },
     {
         id: 6,
@@ -81,7 +81,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda5-wyniki.html',
-        date: new Date('02.04.2021 21:00'),
+        date: new Date(2021, 1, 4, 21, 0),
     },
     {
         id: 7,
@@ -95,7 +95,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda6-wyniki.html',
-        date: new Date('02.18.2021 21:00'),
+        date: new Date(2021, 1, 18, 21, 0),
     },
     {
         id: 8,
@@ -109,7 +109,7 @@ export const events = [
             link: 'https://acleague.com.pl/sezonac17.html',
         },
         link: 'https://acleague.com.pl/sezonac17-runda7-wyniki.html',
-        date: new Date('03.04.2021 21:00'),
+        date: new Date(2021, 2, 4, 21, 0),
     },
     {
         id: 9,
@@ -123,7 +123,7 @@ export const events = [
             link: 'https://eurosport.acleague.com.pl/',
         },
         link: 'https://eurosport.acleague.com.pl/results-race-1.html',
-        date: new Date('12.28.2020 21:00'),
+        date: new Date(2020, 11, 28, 21, 0),
     },
     {
         id: 10,
@@ -137,7 +137,7 @@ export const events = [
             link: 'https://eurosport.acleague.com.pl/',
         },
         link: 'https://eurosport.acleague.com.pl/results-race-2.html',
-        date: new Date('12.29.2020 21:00'),
+        date: new Date(2020, 11, 29, 21, 0),
     },
     {
         id: 11,
@@ -151,7 +151,7 @@ export const events = [
             link: 'https://eurosport.acleague.com.pl/',
         },
         link: 'https://eurosport.acleague.com.pl/results-race-3.html',
-        date: new Date('01.05.2021 21:00'),
+        date: new Date(2021, 4, 1, 21, 0),
     },
     {
         id: 12,
@@ -165,6 +165,6 @@ export const events = [
             link: 'https://eurosport.acleague.com.pl/',
         },
         link: 'https://eurosport.acleague.com.pl/results-race-4.html',
-        date: new Date('01.06.2021 21:00'),
+        date: new Date(2021, 5, 6, 21, 0),
     }
 ];
