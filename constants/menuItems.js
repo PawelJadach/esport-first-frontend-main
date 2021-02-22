@@ -5,6 +5,16 @@ export const menuItems = [
         href: '/',
     },
     {
+        id: 'nowosci',
+        label: 'Nowości',
+        href: '/nowosci',
+    },
+    {
+        id: 'osiagniecia',
+        label: 'Osiągnięcia',
+        href: '/osiagniecia',
+    },
+    {
         id: 'ekipa',
         label: 'Ekipa',
         href: '/ekipa',
@@ -19,9 +29,14 @@ export const menuItems = [
         label: 'Kalendarz',
         href: '/kalendarz',
     },
-    // {
-    //     id: 'kontakt',
-    //     label: 'Kontakt',
-    //     href: '/kontakt',
-    // },
+    {
+        id: 'newsletter',
+        label: 'Newsletter',
+        href: '/newsletter',
+    },
+    {
+        id: 'kontakt',
+        label: 'Kontakt',
+        href: '/kontakt',
+    },
 ];

@@ -4,7 +4,6 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 import Navbar from '../Navbar';
-import Socials from '../Socials';
 
 import { childrenPropTypes } from '../../propTypes';
 
@@ -43,7 +42,6 @@ const Layout = ({ children, title }) => {
             </Head>
             <Container>
                 <Navbar />
-                <Socials />
                 <BodyWrapper>
                     {children}
                 </BodyWrapper>

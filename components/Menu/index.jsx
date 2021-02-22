@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { menuItems } from '../../constants/menuItems';
 
 import styled from 'styled-components';
+import Socials from '../Socials';
 
 const Container = styled.div`
     position: absolute;
@@ -50,6 +51,7 @@ const Menu = ({ isOpen }) => {
             {menuItems.map(item =>
                 <MenuItem key={item.id} href={item.href} label={item.label} isActive={route === item.href} />
             )}
+            <Socials />
         </Container>
     );
 };

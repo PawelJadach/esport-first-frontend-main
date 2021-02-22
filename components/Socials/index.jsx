@@ -14,7 +14,6 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    background-color: ${({ theme }) => theme.colors.primary};
 
     svg {
         margin: 7px;
@@ -22,7 +21,7 @@ const Container = styled.div`
 
         &:hover {
             cursor: pointer;
-            color: ${({ theme }) => theme.colors.dark};
+            color: ${({ theme }) => theme.colors.primary};
         }
     }
 
