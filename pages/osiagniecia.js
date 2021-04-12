@@ -16,6 +16,9 @@ const Content = styled.div`
 
 const Achivement = styled.div`
     margin: 30px;
+    width: 400px;
+    max-width: 90vw;
+    text-align: center;
 
     @media (max-width: 600px) {
 		margin: 30px 10px;
@@ -31,10 +34,12 @@ const Subtitle = styled.p`
     font-size: 15px;
     color: ${({ theme }) => theme.colors.primary};
     margin-top: 20px;
+    font-weight: bold;
 `;
 
 const List = styled.ul`
-    list-style: square;
+    list-style: none;
+    padding: 0;
 `;
 
 const ListItem = styled.li`
@@ -53,14 +58,22 @@ const AchivementsPage = () => {
                         <hr />
                             <Title>{achivement.title}</Title>
                         <hr />
-                        <Subtitle>Osiągnięcia drużynowa</Subtitle>
-                        <List>
-                            {achivement.team.map((item, index) => <ListItem key={`achivement-${achivement.id}-team-${index}`}>{item}</ListItem>)}
-                        </List>
-                        <Subtitle>Osiągnięcia indywidulane</Subtitle>
-                        <List>
-                            {achivement.solo.map((item, index) => <ListItem key={`achivement-${achivement.id}-solo-${index}`}>{item}</ListItem>)}
-                        </List>
+                        {achivement?.team?.length > 0 && (
+                            <>
+                                <Subtitle>Osiągnięcia drużynowa</Subtitle>
+                                <List>
+                                    {achivement?.team?.map((item, index) => <ListItem key={`achivement-${achivement.id}-team-${index}`}>{item}</ListItem>)}
+                                </List>
+                            </>
+                        )}
+                        {achivement?.solo?.length > 0 && (
+                            <>
+                                <Subtitle>Osiągnięcia indywidulane</Subtitle>
+                                <List>
+                                    {achivement?.solo?.map((item, index) => <ListItem key={`achivement-${achivement.id}-solo-${index}`}>{item}</ListItem>)}
+                                </List>
+                            </>
+                        )}
                     </Achivement>
                 )}
             </Content>

@@ -4,11 +4,11 @@ export const menuItems = [
         label: 'Start',
         href: '/',
     },
-    {
-        id: 'nowosci',
-        label: 'Nowości',
-        href: '/nowosci',
-    },
+    // {
+    //     id: 'nowosci',
+    //     label: 'Nowości',
+    //     href: '/nowosci',
+    // },
     {
         id: 'osiagniecia',
         label: 'Osiągnięcia',
@@ -29,14 +29,14 @@ export const menuItems = [
         label: 'Kalendarz',
         href: '/kalendarz',
     },
-    {
-        id: 'newsletter',
-        label: 'Newsletter',
-        href: '/newsletter',
-    },
-    {
-        id: 'kontakt',
-        label: 'Kontakt',
-        href: '/kontakt',
-    },
+    // {
+    //     id: 'newsletter',
+    //     label: 'Newsletter',
+    //     href: '/newsletter',
+    // },
+    // {
+    //     id: 'kontakt',
+    //     label: 'Kontakt',
+    //     href: '/kontakt',
+    // },
 ];

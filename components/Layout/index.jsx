@@ -8,7 +8,7 @@ import Navbar from '../Navbar';
 import { childrenPropTypes } from '../../propTypes';
 
 const Container = styled.div`
-    background-image: url('background-with-bottom.jpg');
+    background-image: url('background.jpg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
