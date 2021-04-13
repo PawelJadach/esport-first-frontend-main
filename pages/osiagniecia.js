@@ -60,7 +60,7 @@ const AchivementsPage = () => {
                         <hr />
                         {achivement?.team?.length > 0 && (
                             <>
-                                <Subtitle>Osiągnięcia drużynowa</Subtitle>
+                                <Subtitle>Osiągnięcia drużynowe</Subtitle>
                                 <List>
                                     {achivement?.team?.map((item, index) => <ListItem key={`achivement-${achivement.id}-team-${index}`}>{item}</ListItem>)}
                                 </List>
