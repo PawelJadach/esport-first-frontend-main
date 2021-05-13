@@ -33,36 +33,38 @@ const CalendarPage = () => {
 				<CalendarItem
 					header='Ostatni wyścig'
 					color='grey'
-					background={events[nextRaceIndex - 1].track.image}
-					title={events[nextRaceIndex - 1].track.name}
-					subtitle={events[nextRaceIndex - 1].date.toLocaleDateString()}
-					logo={events[nextRaceIndex - 1].league.logo}
-					subsubtitle={events[nextRaceIndex - 1].league.name}
-					link={events[nextRaceIndex - 1].link}
-					onImageClick={openInNewTab(events[nextRaceIndex - 1].link)}
+					background={events[nextRaceIndex - 1]?.track.image}
+					title={events[nextRaceIndex - 1]?.track.name}
+					subtitle={events[nextRaceIndex - 1]?.date.toLocaleDateString()}
+					logo={events[nextRaceIndex - 1]?.league.logo}
+					subsubtitle={events[nextRaceIndex - 1]?.league.name}
+					link={events[nextRaceIndex - 1]?.link}
+					onImageClick={openInNewTab(events[nextRaceIndex - 1]?.link)}
 				/>
 				<CalendarItem
 					header='Najbliższy wyścig'
 					color='primary'
-					background={events[nextRaceIndex].track.image}
-					title={events[nextRaceIndex].track.name}
-					subtitle={events[nextRaceIndex].date.toLocaleDateString()}
-					logo={events[nextRaceIndex].league.logo}
-					subsubtitle={events[nextRaceIndex].league.name}
-					link={events[nextRaceIndex].link}
-					onImageClick={openInNewTab(events[nextRaceIndex].link)}
+					background={events[nextRaceIndex]?.track.image}
+					title={events[nextRaceIndex]?.track.name}
+					subtitle={events[nextRaceIndex]?.date.toLocaleDateString()}
+					logo={events[nextRaceIndex]?.league.logo}
+					subsubtitle={events[nextRaceIndex]?.league.name}
+					link={events[nextRaceIndex]?.link}
+					onImageClick={openInNewTab(events[nextRaceIndex]?.link)}
 				/>
-				<CalendarItem
-					header='Kolejny wyścig'
-					color='blue'
-					background={events[nextRaceIndex + 1].track.image}
-					title={events[nextRaceIndex + 1].track.name}
-					subtitle={events[nextRaceIndex + 1].date.toLocaleDateString()}
-					logo={events[nextRaceIndex + 1].league.logo}
-					subsubtitle={events[nextRaceIndex + 1].league.name}
-					link={events[nextRaceIndex + 1].link}
-					onImageClick={openInNewTab(events[nextRaceIndex + 1].link)}
-				/>
+				{events[nextRaceIndex + 1] &&
+					<CalendarItem
+						header='Kolejny wyścig'
+						color='blue'
+						background={events[nextRaceIndex + 1]?.track.image}
+						title={events[nextRaceIndex + 1]?.track.name}
+						subtitle={events[nextRaceIndex + 1]?.date.toLocaleDateString()}
+						logo={events[nextRaceIndex + 1]?.league.logo}
+						subsubtitle={events[nextRaceIndex + 1]?.league.name}
+						link={events[nextRaceIndex + 1]?.link}
+						onImageClick={openInNewTab(events[nextRaceIndex + 1]?.link)}
+					/>
+				}
 			</Wrapper>
     	</Layout>
     );
